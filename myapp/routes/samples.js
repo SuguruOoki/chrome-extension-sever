@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 const twitter = require('twitter');
-var fs = require('fs');
 
 /* サンプルAPI① 
 * http://localhost:3000/samples にGETメソッドのリクエストを投げると、
@@ -37,7 +36,7 @@ router.get('/', function(req, res, next) {
         
         console.log("------------------------------");
         console.log(result);
-        res.header('Content-Type', 'application/json; charset=utf-8')
+        res.header('Content-Type', 'application/json; charset=utf-8');
         res.send(JSON.stringify(result));
     });
 });

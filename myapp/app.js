@@ -8,6 +8,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var samplesRouter = require('./routes/samples');
+var pixivsRouter = require('./routes/pixivs');
 
 var app = express();
 

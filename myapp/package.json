@@ -6,15 +6,22 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "async": "^2.6.1",
     "cookie-parser": "~1.4.3",
     "cors": "^2.8.4",
+    "csv": "^3.1.0",
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
+    "node-pixiv": "^0.1.1",
+    "pixiv-app-api": "^0.11.0",
+    "pixiv-img": "^0.3.1",
+    "request": "^2.87.0",
     "require": "^2.4.20",
-    "twitter": "^1.7.1"
+    "twitter": "^1.7.1",
+    "underscore": "^1.9.1"
   }
 }

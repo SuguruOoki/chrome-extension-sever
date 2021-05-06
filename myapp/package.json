@@ -22,6 +22,6 @@
     "request": "^2.87.0",
     "require": "^2.4.20",
     "twitter": "^1.7.1",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   }
 }
